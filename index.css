@@ -1,17 +1,19 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: url("pattern.jpg");
     background-size: cover;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     background: white;
     max-width: 80%;
-    margin: auto;
     border: 3px solid black;
     border-radius: 10px;
+    padding: 10px;
 }
 
 h1 {
@@ -27,21 +29,20 @@ h2 {
 
 button {
     border: 1px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px  ;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 150px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
 
 #increment-btn {
-    background: #2C2891;
+    background: #92DCE5;
 }
 
 #save-btn {
-    background: #1C7947;
+    background: #D64933;
 }
 
 #save-el {
